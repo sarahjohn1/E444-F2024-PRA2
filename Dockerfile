@@ -20,5 +20,6 @@ ENV FLASK_APP=hello.py
 CMD ["flask", "run", "--host=0.0.0.0"]
 
 
+# docker build -t flask-app .
 # docker run -d -p 5000:5000 flask-app
 # or on docker desktop in the containers
